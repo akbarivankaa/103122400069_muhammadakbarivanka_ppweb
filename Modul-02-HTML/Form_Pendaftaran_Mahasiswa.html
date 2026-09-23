@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>Form Pendaftaran Mahasiswa</title> 
+    </head> 
+
+    <body>
+        <h1>Form Pendaftaran Mahasiswa</h1>
+
+        <form action="#" method="GET"> 
+            <table>
+                <tr>
+                    <td><label for="nama">Nama</label></td><td>:</td>
+                    <td><input type="text" id="nama" name="nama" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td><td>:</td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td><td>:</td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td><td>:</td>
+                    <td>
+                        <input type="radio" id="pria" name="gender" value="male" required> 
+                        <label for="pria">Laki-laki</label>
+                        
+                        <input type="radio" id="wanita" name="gender" value="female" required> 
+                        <label for="wanita">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobi</td><td>:</td>
+                    <td>
+                        <input type="checkbox" id="hobi_game" name="Game" value="Esport"> 
+                        <label for="hobi_game">Game</label>
+                        
+                        <input type="checkbox" id="hobi_basket" name="basket" value="Sport"> 
+                        <label for="hobi_basket">Basket</label>
+                        
+                        <input type="checkbox" id="hobi_futsal" name="Bola" value="Sport"> 
+                        <label for="hobi_futsal">Futsal</label>
+                        
+                        <input type="checkbox" id="hobi_baca" name="Membaca" value="Membaca"> 
+                        <label for="hobi_baca">Membaca</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pendidikan">Pendidikan</label></td><td>:</td>
+                    <td>
+                        <select id="pendidikan" name="pendidikan">
+                            <option value="SMA">SMA / SMK</option>
+                            <option value="D3">D3</option>
+                            <option value="S1">S1</option>  
+                            <option value="S2">S2</option>
+                            <option value="pengangguran">pengangguran</option>
+                        </select>
+                        </tr>
+                    <tr>
+                        <td><label for="kritik">Kritik</label></td><td>:</td>
+                        <td><textarea id="kritik" name="kritik"></textarea></td>
+                    </tr>
+                    <tr>
+                    <td></td><td></td>
+                    <td><input type="submit" value="Submit"></td>
+                    </tr>
+            </table>
+        </form>
+    </body>
+</html>   
