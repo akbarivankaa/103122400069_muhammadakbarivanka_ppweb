@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f6ff;
+    color: #243447;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: #1f4e79;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #1f4e79;
+}
+
+.subtitle {
+    margin-top: 0;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    color: #5d6d7e;
+}
+
+.profile-container {
+    width: min(90%, 800px);
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+.profile-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #d9eaf7;
+    border-radius: 50%;
+
+    font-size: 48px;
+    font-weight: bold;
+    color: #1f4e79;
+}
+
+.profile-photo img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #d9eaf7;
+    border-radius: 50%;
+
+    font-size: 48px;
+    font-weight: bold;
+    color: #1f4e79;
+}
+
+.description {
+    flex: 1;
+    line-height: 1.7;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f4e79;
+}
+
+
+.highlight {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+
+.info-list {
+    margin-top: 20px;
+    padding: 20px 25px 20px 45px;
+
+    background-color: #eef5ff;
+    border-left: 5px solid #1f4e79;
+
+    line-height: 1.9;
+}
+
+.info-list li {
+    padding-left: 5px;
+}
+
+.info-list li::marker {
+    color: #e67e22;
+}
+
+.footer-text {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+
+@media (max-width: 600px) {
+
+    .profile-container {
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .profile-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .description {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .info-list {
+        text-align: left;
+    }
+}
