@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pendaftaran Praktikum Pemrograman Web</title>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container my-5">
+
+        <h1 class="text-center text-uppercase fw-bold mb-5">
+            Pendaftaran Praktikum Pemrograman Web
+        </h1>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6">
+                <div class="h-100">
+                    <h2 class="fw-bold mb-3">Informasi Praktikum</h2>
+
+                    <img src="assets/KegiatanPraktikum.jpeg"
+                         class="img-fluid rounded mb-3"
+                         alt="Kegiatan Praktikum Pemrograman Web">
+
+                    <p>
+                        Praktikum Pemrograman Web merupakan kegiatan pembelajaran
+                        yang bertujuan untuk memberikan pemahaman dan pengalaman
+                        kepada mahasiswa dalam membuat serta mengembangkan halaman
+                        web menggunakan teknologi HTML, CSS, dan framework web.
+                    </p>
+
+                    <p>
+                        Melalui praktikum ini, peserta akan mempelajari dasar-dasar
+                        pembuatan website, struktur halaman HTML, penggunaan CSS,
+                        serta penerapan framework Bootstrap dalam membangun halaman
+                        web yang responsif.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="h-100">
+                    <h2 class="fw-bold mb-3">Form Pendaftaran</h2>
+
+                    <form>
+                        
+                        <div class="mb-3">
+                            <label for="nama" class="form-label">
+                                Nama Lengkap
+                            </label>
+                            <input type="text"
+                                   class="form-control"
+                                   id="nama"
+                                   name="nama"
+                                   required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="nim" class="form-label">
+                                NIM
+                            </label>
+                            <input type="text"
+                                   class="form-control"
+                                   id="nim"
+                                   name="nim"
+                                   required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">
+                                Email
+                            </label>
+                            <input type="email"
+                                   class="form-control"
+                                   id="email"
+                                   name="email"
+                                   required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="kelas" class="form-label">
+                                Kelas
+                            </label>
+                            <input type="text"
+                                   class="form-control"
+                                   id="kelas"
+                                   name="kelas"
+                                   required>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">
+                            Daftar
+                        </button>
+
+                        <button type="reset" class="btn btn-secondary">
+                            Reset
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <h2 class="fw-bold mb-3">Daftar Peserta</h2>
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">No.</th>
+                                <th scope="col">Nama Lengkap</th>
+                                <th scope="col">NIM</th>
+                                <th scope="col">Kelas</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Surya Pradipta</td>
+                                <td>103122400061</td>
+                                <td>SE-08-02</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Muhammad Akbar Ivanka</td>
+                                <td>103122400069</td>
+                                <td>SE-08-02</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Izzan Maula Rifqi</td>
+                                <td>10312243009</td>
+                                <td>SE-08-02</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
